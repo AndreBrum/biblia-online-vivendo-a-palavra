@@ -1,0 +1,268 @@
+div.bovp_wrap {
+
+	font-size: 14px;
+    width: 100%;
+    max-width: 800px;
+}
+
+div.bovp_wrap a {
+
+    color: inherit;
+    text-decoration: none;
+
+}
+
+div.bovp_wrap .bovp_box {
+
+	background: #fff;
+    border: 3px solid rgba(204, 204, 204, 0.74);
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+div.bovp_wrap .bovp_box div.title {
+
+    font-size: 37px;
+    letter-spacing: -4px;
+    color: #DDE1EA;
+    float: right;
+}
+
+div#bovp_header_adm img {
+	
+	margin-top: 10px;
+    float: left;
+    margin-bottom: -15px;
+
+}
+
+div.bovp_wrap h2.bovp_adm_h2 {
+
+	font-size: 1.5em;
+    color: #DBD9D9;
+    text-align: right;
+    clear: both;
+    margin: 0px 0 11px 0;
+}
+
+div.bovp_wrap h3.bovp_adm_h3 {
+
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    color: #49a2d1;
+
+}
+
+.clearfix:after {
+
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+div.bovp_wrap div.message.bovp_message {border:1px solid #36C;background-color:#0080C0;color:#fff;padding:15px;}
+div.bovp_wrap #loading{text-align: center;float: left;margin-left: 30px;}
+div.bovp_wrap .progress {height: 25px;width: 300px;background: #ccc;display:none;}
+div.bovp_wrap .success {color: #34C409;font-size: 16px;margin-left: 30px;float: left;margin-top: 3px;display:none;}
+.bovp_success {clear: both;margin-top: 20px;border: 1px solid #209D10;background: #DCF3BA;padding: 0px 10px 0px 10px;border-radius: 10px 0 10px 0px;}
+.bovp_customize{margin-top: 10px;}
+
+/* Icones ADM */
+
+.icone-left {
+
+    float: left;
+
+}
+
+.icones {
+    background: url('../themes/img/icones.png') no-repeat;
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+ 
+.icones-heart {
+
+    background: url('../themes/img/icones.png') no-repeat 0px 0px;
+    width: 35px;
+    height: 25px;
+}
+
+.icones-info {
+
+    background: url('../themes/img/icones.png') no-repeat -35px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-author {
+
+    background: url('../themes/img/icones.png') no-repeat -70px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-link {
+
+    background: url('../themes/img/icones.png') no-repeat -105px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-version {
+
+    background: url('../themes/img/icones.png') no-repeat -140px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-book {
+
+    background: url('../themes/img/icones.png') no-repeat -175px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-setup {
+
+    background: url('../themes/img/icones.png') no-repeat -210px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+.icones-designer {
+
+    background: url('../themes/img/icones.png') no-repeat -245px 0px;
+    width: 35px;
+    height: 27px;
+}
+
+
+p.float-left-icone {
+
+    margin: 0;
+    padding: 5px 0 4px 0;
+
+}
+
+
+.bovp_box #icone-title {
+
+    float: right;
+
+}
+
+.bovp_box #icone-title p.title {
+
+    margin: -6px 0 0 0;
+    line-height: 37px;
+    font-size: 37px;
+    letter-spacing: -4px;
+    color: #DDE1EA;
+    float: left;
+    
+}
+
+/* Block Settings */
+
+.bovp_item-setting {
+
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.bovp_item-setting span {
+
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bovp_key_log {
+
+    max-width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background: #ccc;
+    padding: 3px 10px;
+    float: right;
+    
+}
+
+
+
+.icon_bovp {
+    
+    margin: 5px 10px;
+    color: #7D929C;
+}
+
+.bovp_items_adm {
+
+    margin: 5px 0px;
+    display: inline-block;
+    height: 20px;
+}
+
+span.icon_title_bovp { 
+
+    font-size: 33px;    
+    margin: -3px;    
+    padding-right: 13px;    
+    color: #EEF1F7;
+}
+
+div.bovp_info {    
+
+    margin: 0px;    
+    padding: 0px 16px;    
+    font-size: 35px;    
+    margin-top: 10px;    
+    color: #DCE3EC;    
+    letter-spacing: -0.07em;    
+    font-weight: bold;    
+    text-align: right;
+}
+
+.bovp_settings_header {    
+    background: url(../themes/img/background_logo_bovp.png) 
+    left center no-repeat;    
+    height: 85px;    
+    background-size: 102px;    
+    background-position-y: 7px;    
+    background-position-x: 50px;    
+    margin-bottom: 16px;    
+    margin-right: 11px;
+}
+
+.bovp_settings_header span {    
+
+    text-align: right;    
+    float: right;    
+    color: #DCE3EC;    
+    margin-top: -41px;    
+    font-size: 20px;    
+    margin-right: 11px;    
+    font-weight: 900;    
+    letter-spacing: -0.05em;
+}
+
+div.bovp_wrap h2.bovp_h2 {    
+
+    margin: 5px;    
+    padding: 10px;    
+    font-size: 2.4em;    
+    margin-top: 30px;    
+    color: #FF9800;    
+    letter-spacing: -0.04em;    
+    text-align: left;    
+    line-height: 77px;
+}
+
+

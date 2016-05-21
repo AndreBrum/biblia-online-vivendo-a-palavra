@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Biblia Online Vivendo a Palavra\n"
+"POT-Creation-Date: 2016-02-24 11:30-0300\n"
+"PO-Revision-Date: 2016-02-24 11:31-0300\n"
+"Last-Translator: André Brum Sampaio <ab_sampaio@hotmail.com>\n"
+"Language-Team: Web117 <andre@web117.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bovp_widget_index.class.php:21
+#: includes/bovp_widget_index.class.php:37
+#: includes/bovp_widget_index.class.php:66
+#: includes/bovp_widget_verse.class.php:27
+msgid "Bible Index"
+msgstr "Indice da Bíblia"
+
+#: includes/bovp_widget_index.class.php:22
+msgid "This widget show an index of books of Bible in your sidebar."
+msgstr "Este widget exibe um índice da bíblia na sua barra lateral."
+
+#: includes/bovp_widget_index.class.php:38
+#: includes/bovp_widget_verse.class.php:28
+msgid "Widget "
+msgstr "Widget"
+
+#: includes/bovp_widget_index.class.php:70
+#: includes/bovp_widget_verse.class.php:70
+msgid "Title:"
+msgstr "Título: "
+
+#: includes/bovp_widget_verse.class.php:16
+#: includes/bovp_widget_verse.class.php:64
+msgid "Daily Verse"
+msgstr "Versículo Diário"
+
+#: includes/bovp_widget_verse.class.php:17
+msgid "Use this widget to display the daily verse"
+msgstr "Use este widget para exibir o versículo diário."
+
+#: includes/bovp_widget_verse.class.php:73
+msgid "Type:"
+msgstr "Tipo:"
+
+#: includes/bovp_widget_verse.class.php:77
+msgid "Daily Fixed"
+msgstr "Fixo por dia"
+
+#: includes/bovp_widget_verse.class.php:80
+msgid "Random Verse"
+msgstr "Verso Aleatório"
+
+#: includes/functions.php:471
+msgid ""
+"Please, visit the Online Bible Settings Menu to install your prefered "
+"translation."
+msgstr ""
+"Por favor, acesse a página de configuração do plugin para instalar o texto "
+"bíblico."
+
+#: includes/functions.php:503
+msgid "Nothing Found!"
+msgstr "Nenhum Resultado!"
+
+#: includes/functions.php:516
+msgid "Execution Time :"
+msgstr "TEmpo de Execução:"
+
+#: includes/functions.php:666
+msgid "Results"
+msgstr "Resultados"
+
+#: includes/functions.php:762
+msgid "The Pentateuch"
+msgstr "Pentateuco"
+
+#: includes/functions.php:763
+msgid "The Historical books"
+msgstr "Históricos"
+
+#: includes/functions.php:764
+msgid "The Poetic and Wisdom writings"
+msgstr "Poéticos e de Sabedoria"
+
+#: includes/functions.php:765
+msgid "The Major Prophets"
+msgstr "Profetas Maiores"
+
+#: includes/functions.php:766
+msgid "The Minor Prophets"
+msgstr "Profetas Menores"
+
+#: includes/functions.php:767
+msgid "God Spell"
+msgstr "Evangelhos"
+
+#: includes/functions.php:768
+msgid "Acts"
+msgstr "Histórico"
+
+#: includes/functions.php:769
+msgid "Paulines Epistles"
+msgstr "Cartas Paulinas"
+
+#: includes/functions.php:770
+msgid "General Epistles"
+msgstr "Outras Cartas"
+
+#: includes/functions.php:771
+msgid "Prophecy"
+msgstr "Profecia"
+
+#: includes/functions.php:811
+msgid "Books of Bible"
+msgstr "Livros da Bíblia"
+
+#: includes/functions.php:844
+msgid "by"
+msgstr "por"
+
+#: includes/functions.php:982
+msgid "Books"
+msgstr "Livros"
+
+#: includes/functions.php:1246
+msgid "Error: Invalid format"
+msgstr "Erro: Formato Inválido"
+
+#: includes/functions.php:1404
+msgid "Select a page"
+msgstr "Selecione uma página"
+
+#: includes/functions.php:1644 includes/functions.php:1648
+#: includes/functions.php:1934 includes/functions.php:1971
+#: includes/functions.php:1972
+msgid "book"
+msgstr "livro"
+
+#: includes/functions.php:1708
+msgid "Online Bible"
+msgstr "Bíblia Online"
+
+#: includes/functions.php:1709 includes/functions.php:2036
+msgid "About"
+msgstr "Sobre"
+
+#: includes/functions.php:1710 includes/functions.php:1843
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/functions.php:1795
+msgid "Donation"
+msgstr "Doação"
+
+#: includes/functions.php:1798
+msgid "Consider a Donation"
+msgstr "Faça uma Doação"
+
+#: includes/functions.php:1800
+msgid ""
+"If you use Online Bible plugin and want to contribute to the project's "
+"maintenance, you can use the link below to make a donation."
+msgstr ""
+"Se você usa o Plugin da Bíblia Online para Wordpress e deseja contribuir com "
+"a manutenção deste projeto, você pode usar o link abaixo para fazer sua "
+"doação."
+
+#: includes/functions.php:1834 includes/functions.php:2023
+msgid "OnlineBible"
+msgstr "BíbliaOnline"
+
+#: includes/functions.php:1846
+msgid "Edit Settings"
+msgstr "Configurações"
+
+#: includes/functions.php:1854
+msgid "Choose and Install the Bible version"
+msgstr "Escolha e instale a tradução desejada"
+
+#: includes/functions.php:1862 includes/functions.php:1866
+msgid "Not Installed"
+msgstr "Nenhuma instalada"
+
+#: includes/functions.php:1889
+msgid "Page where the online Bible will be displayed"
+msgstr "Página na qual a Bíblia será exibida"
+
+#: includes/functions.php:1897
+msgid "Source of the daily verse"
+msgstr "Origem do versículo diário"
+
+#: includes/functions.php:1900
+msgid "All the Bible"
+msgstr "Toda a Bíblia"
+
+#: includes/functions.php:1901
+msgid "Old Testament"
+msgstr "Antigo Testamento"
+
+#: includes/functions.php:1902
+msgid "New Testament"
+msgstr "Novo Testamento"
+
+#: includes/functions.php:1903
+msgid "The Book of Psalms"
+msgstr "Livro dos Salmos"
+
+#: includes/functions.php:1909
+msgid "Search results to be displayed per page"
+msgstr "Quantidade de resultados exibidos por página"
+
+#: includes/functions.php:1921
+msgid "Chapter separator"
+msgstr "Separador de capítulos"
+
+#: includes/functions.php:1931
+msgid "Show on front:"
+msgstr "Exibir na frente:"
+
+#: includes/functions.php:1933 includes/functions.php:1986
+#: includes/functions.php:1987 includes/functions.php:2335
+msgid "index"
+msgstr "indice"
+
+#: includes/functions.php:1933
+msgid "Show index"
+msgstr "Exibir Índice"
+
+#: includes/functions.php:1934
+msgid "Show Book of Genesis"
+msgstr "Exibir Genesis"
+
+#: includes/functions.php:1935 includes/functions.php:1991
+#: includes/functions.php:1992
+msgid "favorites"
+msgstr "favoritos"
+
+#: includes/functions.php:1935
+msgid "Show favorites verses"
+msgstr "Exibir versos favoritos"
+
+#: includes/functions.php:1940
+msgid "Default font size:"
+msgstr "Tamanho padrão da fonte"
+
+#: includes/functions.php:1952
+msgid "Activate Resources:"
+msgstr "Ativar recursos"
+
+#: includes/functions.php:1953
+msgid "activate tagger - Increases page load time"
+msgstr "ativar tagger - aumenta o tempo de carregamento da página."
+
+#: includes/functions.php:1957
+msgid "Choose theme"
+msgstr "Escolha o tema"
+
+#: includes/functions.php:1968
+msgid "URL slugs"
+msgstr "URL curtas"
+
+#: includes/functions.php:1976 includes/functions.php:1977
+msgid "search"
+msgstr "busca"
+
+#: includes/functions.php:1981 includes/functions.php:1982
+msgid "search_in"
+msgstr "busca_em"
+
+#: includes/functions.php:2000
+msgid "Update Settings"
+msgstr "Atualizar Opções"
+
+#: includes/functions.php:2033
+msgid "Informations"
+msgstr "Informações"
+
+#: includes/functions.php:2038
+msgid ""
+"Plugin for implementation of Bible Online in your Wordpress blog. With it, "
+"you can spread the Word of God and bless your website's users. The plugin "
+"allows to consult all of 66 books of the Holy Bible."
+msgstr ""
+"Plugin para a implementação da Bíblia Online em seu blog. Com ele, você "
+"disponibiliza todo o texto bíblico e pode abençoar a vida dos visitantes do "
+"seu site. O Plugin permite a consulta aos 66 livros da Bíblia Sagrada."
+
+#: includes/functions.php:2042
+msgid "Author URI: "
+msgstr "URI do Autor"
+
+#: includes/functions.php:2043
+msgid "Theme Designer: "
+msgstr "Designer do Tema: "
+
+#: includes/functions.php:2044
+msgid "Version: "
+msgstr "Versão: "
+
+#: includes/functions.php:2046
+msgid "Bible Translates:"
+msgstr "Traduções da Bíblia:"
+
+#: includes/functions.php:2048
+msgid "English Bible."
+msgstr "Bíblia em Inglês."
+
+#: includes/functions.php:2050
+msgid "Settings:"
+msgstr "Configurações:"
+
+#: includes/functions.php:2052
+msgid ""
+"In the <b><a href=\"?page=bovp_setting_menu\">SETTINGS PAGE</a></b>, select "
+"desired version and then click to install. Wait the bible text installation "
+"complete and then choose the options (page, itens per page, theme, verse "
+"source)."
+msgstr ""
+"Na <b><a href=\"?page=bovp_setting_menu\">PAGINA DE CONGIGURAÇÃO</a></b>, "
+"selecione a tradução desejada e clique em instalar. Aguarde o término da "
+"instalação e então escolha as opções (página, itens por página, tema, origem "
+"do versículo diário)."
+
+#: includes/functions.php:2109 includes/functions.php:2111
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/functions.php:2216 includes/functions.php:2220
+msgid "Next"
+msgstr "Próximo"
+
+#: wp-online-bible.php:44
+msgid "CSV file not Found!"
+msgstr "Arquivo CSV não encontrado."
+
+#: wp-online-bible.php:54
+msgid "Table installation complete!."
+msgstr "Instalação da tabela completa!"
+
+#: wp-online-bible.php:60
+msgid "Unable to create the table."
+msgstr "Não foi possível criar a tabela."
+
+#~ msgid "Bible Search"
+#~ msgstr "Busca na Bíblia"
+
+#~ msgid "Portuguese Bible."
+#~ msgstr "Bíblia em Português."
+
+#~ msgid "Spanish Bible."
+#~ msgstr "Bíblia em Espanhol."
+
+#~ msgid "Italian Bible."
+#~ msgstr "Bíblia em Italiano."
+
+#~ msgid "Indonesian Bible."
+#~ msgstr "Bíblia em Indonésio."
+
+#~ msgid "Portuguese Translation - ACF -1994"
+#~ msgstr "Tradução em Português - ACF - 1994"
+
+#~ msgid "English Translation - King James"
+#~ msgstr "Tradução em Inglês - King James"
+
+#~ msgid "Spanish Translation - RV 1960"
+#~ msgstr "Tradução Espanhola - RV - 1960"
+
+#~ msgid "Bahasa Indonesia Translation"
+#~ msgstr "Tradução Indonésia"
+
+#~ msgid "Italian Translation"
+#~ msgstr "Tradução Italiana"
+
+#~ msgid "Use the tags "
+#~ msgstr "Use as etiquetas"
+
+#~ msgid "Use this widget to display the bible form search"
+#~ msgstr "Use este widget para exibir o formulário de pesquisa na Bíblia"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Send"
+#~ msgstr "Enviar"
+
+#~ msgid "Install from custom file"
+#~ msgstr "Instalar de um arquivo personalizado"
+
+#~ msgid ""
+#~ "If you have one file with the custom Bible version, yuo can install from "
+#~ "file."
+#~ msgstr ""
+#~ "Se você possui um arquivo de outra tradução faça a instalação a partir "
+#~ "dele."
+
+#~ msgid "Install"
+#~ msgstr "Instalar"
+
+#~ msgid "Go"
+#~ msgstr "Ir"
+
+#~ msgid "Results to: "
+#~ msgstr "Resultados para:"
+
+#~ msgid "Powered by"
+#~ msgstr "Desenvolvido por"
+
+#~ msgid "to"
+#~ msgstr "para"
+
+#~ msgid "activate tag marker"
+#~ msgstr "ativar marcador de tags"
+
+#~ msgid "activate shorcodes"
+#~ msgstr "ativar atalhos"
+
+#~ msgid "Online Bible for Wordpress v."
+#~ msgstr "Biblia Online para Wordpress v."
+
+#~ msgid "Versions:"
+#~ msgstr "TRaduções:"
+
+#~ msgid ""
+#~ "In the SETTINGS PAGE, select desired version and then click to install. "
+#~ "Wait the bible text installation complete and then choose the options "
+#~ "(page, itens per page, theme, verse source)."
+#~ msgstr ""
+#~ "Na PÁGINA DE CONFIGURAÇÃO, selecione a versão desejada e clique em "
+#~ "instalar. Aguarde o término da instalação e então escolha as opções "
+#~ "(página, itens por página, origem do versículo diário e o tema)."

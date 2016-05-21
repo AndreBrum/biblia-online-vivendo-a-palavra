@@ -1,0 +1,1271 @@
+/*
+        _                     _                        
+ __   _(_)_   _____ _ __   __| | ___     __ _          
+ \ \ / / \ \ / / _ \ '_ \ / _` |/ _ \   / _` |         
+  \ V /| |\ V /  __/ | | | (_| | (_) | | (_| |         
+   \_/ |_| \_/_\___|_| |_|\__,_|\___/   \__,_|         
+  _ __   __ _| | __ ___   ___ __ __ _   ___  _ __ __ _ 
+ | '_ \ / _` | |/ _` \ \ / / '__/ _` | / _ \| '__/ _` |
+ | |_) | (_| | | (_| |\ V /| | | (_| || (_) | | | (_| |
+ | .__/ \__,_|_|\__,_| \_/ |_|  \__,_(_)___/|_|  \__, |
+ |_|                                             |___/         
+                                                
+*/
+
+
+@charset "utf-8";
+
+/* BOVP CLEAR */
+
+.bovp_clear:after, .bovp_clear:before {
+
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 2px;
+    
+}
+
+
+/* STYLES DEFAULT THEME */
+
+#bovp_main {
+
+    font-family: 'Open Sans', sans-serif !important;
+    background: transparent !important;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.bovp_content {
+
+    width: 100%;
+}
+
+
+#bovp_main footer {
+
+    background: #009688;
+    padding: 5px;
+    margin: 10px 0;
+    color: #C0BFBF;
+    text-align: right;
+    font-size: 80%;
+    clear: both;
+}
+
+#bovp_main footer a {
+
+    color: #fff;
+    font-weight: bold;
+    margin: 0 5px;
+    border: none;
+
+}
+
+#bovp_main footer a:hover {
+
+    color: #fff;
+    font-weight: bold;
+
+}
+
+#bovp_main img { 
+
+    border:0px;
+
+}
+
+/* LOGO VP */
+
+#bovp_main .bovo_link_logo {
+
+    position: absolute;
+    top:10px;right:10px;
+
+}
+
+/* HEADER */
+
+#bovp_main header {
+
+    margin-bottom: 30px;
+}
+
+#bovp_main header title {
+
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    width: 100%;
+
+}
+
+#bovp_main span.bovp_cap {  
+
+font-weight:bold;
+color:black;
+margin-left: 10px;
+
+}
+
+/* GROUPS */
+
+#bovp_main div.bovp_group { 
+
+    padding: 20px 0px 20px 0px; 
+
+}
+
+#bovp_main input[type="submit"]:hover, 
+div.bovp_form_container input[type="submit"]:hover {
+
+    color:#ccc; !important;
+
+}
+
+#bovp_main input[type=text], 
+div.bovp_form_container input[type="text"], 
+#bovp_main select, 
+div.bovp_form_container select {
+
+    font-family: inherit;
+    font-size:16px;
+    display:block;
+    padding: 4px;
+    float: left;
+    background: #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+    }
+
+
+/* SHOW TEXT LINES */
+
+#bovp_main ul {
+
+    line-height: 25px;
+}
+
+#bovp_main ul li { 
+
+    color:#000; 
+    list-style: none; 
+    text-align: justify; 
+    margin-bottom: 5px !important; 
+    border-bottom: 1px dotted #ccc;
+    line-height: 40px;
+
+}
+
+
+
+#bovp_main p.ref_search{
+
+    float: left; margin-right: 10px;
+
+}   
+
+#bovp_main li.ref_search a:link, 
+#bovp_main li.ref_search a:visited,
+#bovp_main li.ref_search a:hover, 
+#bovp_main li.ref_search a:active {
+
+    color: #000;
+    font-weight: 400;
+    margin-right: 10px;
+
+}   
+
+#bovp_main span.verse_num { 
+
+    padding:15px; 
+    font-size:18px; 
+    font-weight:bold; 
+
+}
+
+ul li.bovp_color {
+
+    background: #EEE;
+
+}
+
+/* LINKS */ 
+
+#bovp_main a:link, 
+#bovp_main a:visited  {
+
+    text-decoration: none;
+
+}
+
+#bovp_main a:hover, 
+#bovp_main a:active {
+
+    color: #000;text-decoration:none;
+}
+
+/* VERSION SECTION */
+
+#bovp_main div.bovp_version {
+
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+
+/* PAGINATION */
+
+#bovp_main nav {font-family: inherit;margin: 20px 0;text-align:center;clear: both;}
+
+#bovp_main nav a:link, 
+#bovp_main nav a:visited {
+    padding: 5px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #D0D0D0;
+    }
+
+#bovp_main nav a:hover, 
+#bovp_main nav a:active {
+
+    padding: 5px;
+    margin-right: 2px;
+    color: #fff;
+    background: #D0D0D0;
+}
+
+
+
+#bovp_main nav span.current {
+
+    padding: 5px;
+    margin-right: 2px;
+    color: #fff !important;
+    background: #009688 !important;
+
+}
+
+#bovp_main nav span.disabled {
+
+    padding: 5px;
+    margin-right: 2px;
+    background-color: #f0f0f0;
+    color: #aaa;
+
+}
+
+/* FORMS */
+
+
+#bovp_main form {margin: 0 !important}
+
+#bovp_book_select {
+
+    background: transparent !important;
+    width: 100%;
+    padding: 3px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#bovp_book_select select {
+
+    background: transparent !important;
+    border: none;
+    display: block;
+    width: 100%;
+
+}
+
+div.bovp_index_widget {
+
+float: right;
+padding: 3px;
+border-radius: 5px 0 5px 0;
+
+}
+
+div.bovp_search_widget {
+
+width: 100%;
+border: 1px solid #ccc;
+float: right;
+padding: 3px;
+border-radius: 5px 0 5px 0;
+
+}
+
+input[type=text].bovp_search_input {
+
+    width: 65%;
+    margin-right: 10px;
+    font-family: inherit;
+    font-size:16px;
+    display:block;
+    padding: 4px;
+    float: left;
+    background: #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+
+    }
+
+/* WIDGETS */ 
+
+#bovp_widget_book, #bovp_widget_chapter {
+
+    width: 100%;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 5px 0;
+
+}
+
+.bovp_selects_form {
+
+    margin-bottom: 20px;
+
+}
+
+span.verse_ref {
+
+    display: block; 
+    text-align: right;
+    margin-bottom: 15px;
+
+}
+
+#bovp_main a.bovp_tag_link  {
+
+    color: #0387B2 !important; 
+    text-decoration:none !important;
+    margin:0;
+
+}
+
+#bovp_main div.bovp_fsize {
+
+    padding: 0 5px 0 5px;
+    height: 28px;
+    text-align: right;
+}
+
+#bovp_main div.bovp_fsize span a { 
+
+    color: #009688;;
+    font-weight: bold;
+
+}
+
+#bovp_main div.bovp_fsize span a.decrease { 
+
+    font-size: 12px !important;
+    padding: 2px;
+}
+
+#bovp_main div.bovp_fsize span a.increase { 
+
+    font-size: 22px;
+    padding: 2px;
+}
+
+ul.bovp_bible_indice {
+
+    list-style: none;
+}
+
+li.bovp_title_book {
+
+    font-size: 16px;
+    color: black;
+    border-bottom: 3px solid #397FC0;
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+
+}
+
+li.bovp_item_book {
+    
+    font-size: 16px;
+    background: #3782CB;
+    padding: 3px 5px 3px 5px;
+    margin:0 5px 10px 0;
+    float: left;
+}
+
+li.bovp_item_book a {
+
+    color: #fff;
+    display: block;
+    text-decoration: none;
+
+}
+
+h3.div_testament {
+
+    clear: both;
+}
+
+li.bovp_back_results {text-align: right;list-style:none;}
+li.bovp_back_results a {font-size: 16px;clear: both;}
+
+
+.bovp_btn {
+
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+    padding: 4px 3px 4px 3px;
+    float: right;
+    border: none;
+    background-color: #21759b;
+    color: #fff;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#2a95c5),to(#21759b));
+    background-image: -webkit-linear-gradient(top,#2a95c5,#21759b);
+    background-image: -moz-linear-gradient(top,#2a95c5,#21759b);
+    background-image: -ms-linear-gradient(top,#2a95c5,#21759b);
+    background-image: -o-linear-gradient(top,#2a95c5,#21759b);
+    background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+    border-color: #21759b;
+    border-bottom-color: #1e6a8d;
+    border-radius: 5px 0 5px 0;
+    -webkit-border-radius: 5px 0 5px 0;
+    -moz-border-radius: 5px 0 5px 0;
+    -o-border-radius: 5px 0 5px 0;
+    -ms-border-radius: 5px 0 5px 0;
+    padding: 5px 15px;
+
+}
+
+
+/* SHARE BUTTONS */
+
+.bovp_item_selected {
+
+    background: #FEF9D0 !important;
+
+}
+
+#bovp_social_bar {
+
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#bovp_social_bar img {
+
+    float: right;
+
+}
+
+
+.bovp_share  {
+
+    width: 99px;
+    float: left;
+
+}
+
+.bovp_tools {
+
+    min-width: 180px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+ul.bovp_social_icons {
+
+    width: 99px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li.bovp_social_li {
+
+    float: left;
+    width: 30px;
+    height: 28px;
+    margin: 0 3px 0 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+
+}
+
+.fb_icon {
+
+    width: 30px;
+    height: 28px;
+    display: block;
+    background: url('img/default_social_icons.jpg') 0 0 ;
+}
+
+.tw_icon {
+
+    width: 30px;
+    height: 28px;
+    display: block;
+    background: url('img/default_social_icons.jpg') -30px 0 ;
+}
+
+.gl_icon {
+
+    width: 30px;
+    height: 28px;
+    display: block;
+    background: url('img/default_social_icons.jpg') -60px 0 ;
+}
+
+.fb_icon:hover {
+
+    background: url('img/default_social_icons.jpg') 0 -29px ;
+}
+
+.tw_icon:hover {
+
+    background: url('img/default_social_icons.jpg') -30px -29px ;
+}
+
+.gl_icon:hover {
+
+    background: url('img/default_social_icons.jpg') -60px -29px ;
+}
+
+/* passage format */
+
+.bovp_reference {
+
+    border-left: 4px solid #ffba00;
+    padding: 10px 0 10px 20px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin: 10px 40px 10px 40px;
+    text-align: justify;
+
+}
+
+.bovp_text_found {
+
+    color:red;
+}
+
+
+.bovp_featured_li  {
+
+    color:red !important;
+}
+
+.bovp_bible_content{ 
+
+    padding: 0;
+    margin: 0;
+
+}
+
+/* BOOKS MENU */
+
+#bovp_main input#control-nav {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+
+
+#bovp_main nav#bovp_menu_fixed {
+    position: absolute;
+    top: 30px;
+    left: -250px;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    min-height: 500px;
+  }
+
+#bovp_main ul.list-auto {
+    padding: 0;
+  }
+
+#bovp_main ul.list-auto li {
+    width: 100%;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+  }
+
+#bovp_main ul.list-auto li a {
+    padding: 15px 10px;
+    border: 0 !important;
+  }
+
+#bovp_main ul.list-auto li a:hover {
+    background-color: #ccc;
+  }
+
+#bovp_main ul.list-auto li a {
+    display: block;
+    padding: 0 10px;
+    color: #999;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+
+
+#bovp_main .control-nav { /* label icon */
+    width: 30px;
+    padding: 5px 0;
+    border: solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+#bovp_main .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
+
+#bovp_main .control-nav-close {
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  /* checked nav */
+#bovp_main input#control-nav {
+    display: block;
+  }
+
+#bovp_main input#control-nav:focus ~ .control-nav {
+    border-color: #000;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+  }
+
+#bovp_main input#control-nav:focus ~ .control-nav:before {
+    background: #000;
+  }
+
+#bovp_main input#control-nav:checked ~ nav,
+#bovp_main input#control-nav:checked ~ .control-nav-close {
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+
+/* Estilos do Indice */
+
+#bovp_main article.bovp_index label { 
+
+    display:block;
+
+}
+
+#bovp_main li.li_books { 
+
+    clear:both;
+    border: none !important;
+
+}
+
+#bovp_main li.li_book { 
+
+    float:left;
+    border: none !important;
+
+}
+
+
+#bovp_main li.li_book a:link, 
+#bovp_main li.li_book a:visited  {
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: #009688!important;
+    border-radius: 0 0 10px 0;
+
+}
+
+
+
+/* Estilo das fontes */
+
+#bovp_main article { 
+
+    font-size: 21px;
+    float: left;
+
+}
+
+/* Search Form */
+
+#bovp_search_container {
+    
+    border: solid 2px rgb(114, 118, 118);
+    height: 39px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+#bovp_search_container img {
+
+    float: left;
+    height: 20px;
+    baseline-shift: sub;
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+
+#bovp_search_text{
+
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 35px;
+    width: 65%;
+    outline: none;
+}
+
+#cx_search_submit {
+
+    float: right;
+    position: relative;
+    width: 30%;
+
+}
+
+/* ---- Botão de busca  ---- */
+.btn_search_submit {
+    margin-left: 10px;
+    height: 35px;
+    background: #009688!important;
+    border: none;
+    color: #fff;
+    padding: 0px!important;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* ---- seta do botão de busca  ---- */
+.arrow_search_submit {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 25%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #009688;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    margin-left: -10px;
+}
+
+
+/* currently, next and previous books */
+
+
+
+header.bovp_header div {
+    
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    white-space: nowrap;
+
+}
+
+header.bovp_header div a {
+    
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+header.bovp_header div#prev_book:hover, header.bovp_header div#prev_book:hover {
+    
+    background: #B8B8B8
+}
+
+
+
+
+
+
+@media (min-width:1px) and (max-width: 479px) {
+
+
+    header.bovp_header div {
+        
+        font-size: large;
+
+    }
+
+
+    .current_cap {
+    
+        min-width: 100%;
+
+    }
+
+    .current_cap {
+    
+        width: 50% !important;
+
+    }
+
+    #next_book {
+
+        text-align: center;
+        float: none !important;
+        margin: 20px auto !important;
+        width: 50%;
+    }
+
+    #prev_book {
+
+        text-align: center;
+        width: 50%;
+        margin: 20px auto !important;
+        float: none !important;
+    }
+
+    #curr_book {
+        
+        float: none !important;
+    }
+
+    .btn_search_submit {
+
+        font-size: 20px !important;
+    }
+
+
+
+
+}
+
+
+@media (min-width:480px) {
+
+    header.bovp_header {
+
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
+    header.bovp_header div {
+        
+        font-size: medium;
+        width: 33%;
+
+    }
+
+    #prev_book {
+        
+        float:left;
+    }   
+
+    #curr_book {
+
+        float: left;
+        border-radius: 5px;
+    }
+
+    #next_book {
+
+        float: right;
+    }
+
+    .current_cap {
+    
+        width: 84px !important;
+
+    }
+
+
+}
+
+
+/* Box de capítulos */
+
+#choose_cap {
+
+    padding: 5px;
+    text-align: right;
+    clear: both;
+
+} 
+
+#choose_cap a {
+
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    min-width: 40px;
+    text-align: center;
+    background: #CCC;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#choose_cap a:hover {
+
+    background: #CCCCCC !important;
+    color: #000 !important;
+
+}
+
+#choose_cap span {
+
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    min-width: 40px;
+    text-align: center;
+    background: #000000;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.current_cap_label {
+    
+    float: left;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.current_cap {
+    
+    margin: 5px;
+    text-align: left;
+    background: #030000;
+    color: #FFF;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 5px 40px 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+
+}
+
+
+.closed_caps {
+
+    visibility: hidden;
+}
+
+.opened_caps {
+
+    margin: 20px 0;
+
+}
+
+
+
+
+.toggle_button {
+
+    padding: 8px 0;
+    border: 3px solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    height: 26px !important;
+    width: 30px;
+    margin: 0 5px 0 0;
+    }
+
+.toggle_button:before {
+
+    content: "";
+    display: block;height: 3px;
+    background: #333;
+
+}
+
+/* ---- Campo de Busca  ---- */
+#bovp_search_container {
+    border: solid 2px #009688!important;
+    height: 39px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3PX;
+}
+
+/* ---- Botão do capítulo  ---- */
+#choose_cap a {
+    background: #f1f1f1 !important;
+    color: #009688 !important;
+}
+
+/* ---- Botão do capítulo ativo ---- */
+#choose_cap span {
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    min-width: 40px;
+    text-align: center;
+    background: #009688;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* ---- Número versículo  ---- */
+#bovp_main ul li span {
+    font-weight: bold;
+    background: #FFFFFF;
+    border-radius: 4px;
+    color: #009688;
+    width: 62px!important;
+    padding: 7px;
+    max-height: 17px!important;
+    margin-right: 7px;
+    border-right: 1px solid #009688;
+}
+
+#bovp_main ul li {
+    color: #636363;
+    list-style: none;
+    text-align: justify;
+    margin-bottom: 5px !important;
+    border-bottom: 2px dotted #F1EFEF;
+    line-height: 30px;
+    padding: 10px 0px;
+    letter-spacing: -0.04em;
+    font-weight: 400;
+}
+
+
+/* ---- Botão livro anterior  ---- */
+#prev_book {
+    float: left;
+    background:transparent!important;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 54px;
+    margin-top: 13px;
+    border:1px solid #dadada; 
+}
+
+/* ---- Botão livro próximo  ---- */  
+#next_book {
+    float: right;
+    background:transparent!important;
+    border-radius: 5px;
+    margin-right: 60px;
+    margin-top: 13px;
+    height: 35px;
+    border:1px solid #dadada;
+}
+
+/* ---- Nome do Livro Atual  ---- */  
+ #curr_book {
+    float: left;
+    background: transparent!important;
+    border-radius: 5px;
+    color: #333!important;
+    font-family: Montserrat;
+    FONT-SIZE: 31PX;
+    LETTER-SPACING: -0.06EM;
+    FONT-WEIGHT: 700;
+    BORDER: none;
+    WIDTH: 100%;
+}
+
+/* ---- Botão Capítulo Atual  ---- */
+ .current_cap {
+    min-width: 22%!important;
+} 
+
+
+/* ---- Seção Cabeçalho  ---- */
+#bovp_main header {
+    margin-bottom: 5px!important;
+}
+
+/* ---- Botão Capítulo Atual  ---- */
+
+#bovp_toggle_pagination {
+
+    clear: both;
+
+}
+
+.current_cap {
+    text-align: center;
+    background: transparent;
+    color: #030000;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: auto!important;
+    border-top: 1px solid #dadada;
+    float: none;
+}
+
+/* ---- Seta do Botão capítulo dropdown  ---- */
+.current_cap span.down_arrow {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 35%;
+    right: 9px;
+    border-left: 8px solid transparent;
+    border-top: 8px solid #009688;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+
+.current_cap span.up_arrow {
+    
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 35%;
+    right: 9px;
+    border-left: 8px solid transparent;
+    border-top: 8px transparent;
+    border-bottom: 8px solid #009688;
+    border-right: 8px solid transparent;8:-10px;
+
+}
+
+/* Sprite */
+
+.icones {
+    background: url('images/icones.png') no-repeat;
+}
+ 
+.icones-heart {
+    
+    background: url('imgs/icones.png') no-repeat -4px -8px;
+    width: 28px;
+    height: 25px;
+}
+
+.icones-info {
+
+    background: url('imgs/icones.png') no-repeat -39px -5px;
+    width: 28px;
+    height: 27px;
+}
+
+.icones-author {
+
+    background: url('imgs/icones.png') no-repeat -80px -10px;
+    width: 16px;
+    height: 16px;
+}
+
+.icones-link {
+
+    background: url('imgs/icones.png') no-repeat -114px -10px;
+    width: 18px;
+    height: 18px;
+}
+
+.icones- {
+
+    background: url('imgs/icones.png') no-repeat -147px -11px;
+    width: 20px;
+    height: 14px;
+}
+
+.icones-book {
+
+    background: url('imgs/icones.png') no-repeat -185px -9px;
+    width: 18px;
+    height: 18px;
+}
+
+.icones-setup {
+
+    background: url('imgs/icones.png') no-repeat -214px -6px;
+    width: 26px;
+    height: 23px;
+}
+
