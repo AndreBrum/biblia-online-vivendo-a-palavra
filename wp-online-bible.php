@@ -2,7 +2,7 @@
 /*
 Plugin Name: Online Bible VP for Wordpress 
 Plugin URI: http://www.vivendoapalavra.org/
-Version: 1.5.3
+Version: 1.6.0
 Description: Plugin for implementation of Online Bible in your Wordpress blog. With it, you can make available the Word of God and bless your website's users. The plugin allows to consult all 66 books of the Holy Bible versions: King James Edition - English, Almeida Corrigida Fiel - Português (1994), Spanish Reina Valera (1960) and the French version Louis Segond (1910).
 Author: André Brum Sampaio
 Author URI: http://www.web117.com.br/
