@@ -1857,7 +1857,9 @@ function bovp_setting_page() {
 
 					        <?php
 
-					        if ( !$bovp_sets->translate ) {
+					        
+
+					        if ( !$bovp_sets->active_translate ) {
 
 					            echo "<option value='-1' selected>" . __('Not Installed','bovp') . "</option>";
 
@@ -1871,7 +1873,7 @@ function bovp_setting_page() {
 
 								echo "<option value='" . $file . "'"; 
 
-								if ( $bovp_sets->translate === $name ) {echo " selected";}
+								if ( $bovp_sets->active_translate == $file ) {echo " selected";}
 
 								echo ">" . $name . "</option>";
 
@@ -2244,19 +2246,11 @@ function bovp_uninstall(){
 	global $wpdb;	
 	global $bovp_sets;
 
+	$table = $wp_prefix . 'bovp_' . $sets->table;
+
 	$wpdb->query( "DELETE FROM `wp_options` WHERE `option_name` LIKE '%bovp%_%'");
 
-	foreach ( $bovp_sets->translate_info as $key => $table ) {
-
-		$tables .= $wpdb->prefix . 'bovp_' . $key;
-
-		$keys = array_keys( $bovp_versions );
-
-		if ( $key != end( $keys ) ) { $tables .= ',';}
-
-	}
-
-	$wpdb->query( "DROP TABLE IF EXISTS " . $tables );
+	$wpdb->query( "DROP TABLE IF EXISTS '$table");
 
 }
 
@@ -2277,7 +2271,7 @@ function bovp_set_info(){
 	$bovp_sets->path = BOVP_PATH;
 	$bovp_sets->icon = BOVP_PLUGIN_URL . 'img/icone_bovp.png';
 	$bovp_sets->foldername = BOVP_FOLDER;
-	$bovp_sets->version = '1.5.3';
+	$bovp_sets->version = '1.6.0';
 
 	$bovp_sets->translate_info = bovp_list_translates();
 
